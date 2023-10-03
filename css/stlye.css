@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url(../images/badham.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-right: auto;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    padding: 3px;
+    
+}
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px ;
+    font-weight: 900;
+    
+
+}
+
+a:hover{
+    color: rgba(240, 66, 147, 0.904);
+    transition: 0.8s ease ;
+    text-decoration:underline;
+}
+.content{
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+    padding: 20px 10px;
+    justify-content: left;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    position: relative;
+
+    
+}
+
+.para{
+    width: 85%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 250px;
+
+}
+.button{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    border-radius: 17px;
+    padding: 5px 30px;
+    margin: 150px 150px;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: 800;
+   
+}
+.button:hover{
+    background: rgba(150, 93, 7, 0.877);
+    color: white;
+}
+
+
+@media screen and (max-width :575px){
+    
+    
+    .para{
+       
+        padding: 10px 10px;
+        top: 80px;
+    
+    }
+    .button{
+       
+        padding: 5px 30px;
+        margin: 100px 30px;
+    }
+       
+    }
+@media screen and (min-width :576px){
+    
+    
+    .para{
+        width: 85%;
+        padding: 10px 10px;
+        
+        top: 150px;
+    
+    }
+    .button{
+       
+        padding: 5px 30px;
+        margin: 120px 50px;
+        
+       
+    }
+    
+}
+@media screen and (min-width :768px){
+    
+    
+    .para{
+        width: 85%;
+        padding: 10px 10px;
+        
+        top: 200px;
+    
+    }
+    .button{
+        
+        padding: 5px 30px;
+        margin: 60px 60px;
+       
+       
+    }
+    
+}
+
+    
+
+
+    
+
